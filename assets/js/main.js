@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       //   console.log(data);
 
-      const response = await axios.post("http://localhost:3000/form", data);
-      console.log("reponse >> ", response);
+      const response = await axios.post(
+        "https://site--contact-form-backend--jnfnxpb8s78c.code.run/form",
+        data
+      );
+      // console.log("reponse >> ", response);
     });
 });
